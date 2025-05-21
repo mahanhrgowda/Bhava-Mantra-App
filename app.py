@@ -4,7 +4,7 @@ import numpy as np
 import ast
 
 st.set_page_config(page_title="🎨 Styled Bhāva Mantra Card", layout="centered")
-st.title("🎨 Styled Bhāva Mantra Card")
+st.title("🎨 Bhāva Mantra Card by Mahān")
 
 # Load dataset
 @st.cache_data
@@ -33,7 +33,7 @@ rasa_emoji = {
 }
 
 # Input name
-name = st.text_input("🔡 Enter your name:", "Mahan")
+name = st.text_input("🔡 Enter your name:", "Mahān")
 
 def extract_phonemes(name):
     name = name.lower()
